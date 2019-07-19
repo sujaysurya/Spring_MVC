@@ -22,9 +22,9 @@
 	<br>
 	<br>
 	<input type="button" onclick="doSomeWork()" value="Click Me" />
-<br>
-<hr>	
-<br>
+	<br>
+	<hr>	
+	<br>
 	<h2>Spring MVC Demo - Hospital Home Page</h2>
 	<a href="hospital/showFormMapping">Hospital Home Page</a>
 	<br>
@@ -32,7 +32,38 @@
 	<img
 		src="${pageContext.request.contextPath}/resources/images/hospital-logo.png" />
 	<br>
+	<hr>	
 	<br>
-	<input type="button" onclick="doSomeWork()" value="Click Me" />
+	<h2>Spring MVC Demo - Employee Portal Page</h2>
+	<a href="employee/showFormMapping">Employee Home Page</a>
+	<br>
+	<br>
+	<img
+		src="${pageContext.request.contextPath}/resources/images/employee-logo.png" />
+	<br>
+	<br>
+	
+	<h2>Spring MVC Demo - Animal Portal Page</h2>
+	<a href="animals/showFormMapping">Animal portal Page</a>
+	<br>
+	<br>
+	<img
+		src="${pageContext.request.contextPath}/resources/images/animal-logo.png" />
+	<br>
+	<br>
+	
+	<h2>Spring MVC Demo - Plant Portal Page</h2>
+	<a href="plants/showFormMapping">Plant portal Page</a>
+	<br>
+	<br>
+	<img
+		src="${pageContext.request.contextPath}/resources/images/plant-logo.png" />
+	<br>
+	<br>
+	
+
+	
+	
+	
 </body>
 </html>
